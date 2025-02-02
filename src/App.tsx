@@ -177,7 +177,7 @@ function App() {
               <div className="relative">
                 <Gamepad2 className="w-24 h-24 text-white opacity-20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-12" />
                 <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-[0_0_25px_rgba(0,0,0,0.5)] relative">
-                  Cygaar's Circuit
+                  Flappy Penguin
                 </h1>
               </div>
             </div>
@@ -240,7 +240,7 @@ function App() {
                         {!address && (
                           <div className="text-center space-y-3">
                             <p className="text-sm text-gray-600">
-                              Want to compete for prizes? Connect your wallet!
+                              Want to compete for potential prizes? Connect your wallet!
                             </p>
                             <div className="flex justify-center">
                               <ConnectButton />
@@ -268,7 +268,7 @@ function App() {
         </div>
         
         <footer className="mt-12 text-center text-white/80">
-          <p className="text-sm">© {currentYear} Cygaar's Circuit. All rights reserved.</p>
+          <p className="text-sm">© {currentYear} Flappy Penguin. All rights reserved.</p>
         </footer>
       </div>
     </div>
