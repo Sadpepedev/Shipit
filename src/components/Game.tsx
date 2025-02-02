@@ -190,7 +190,7 @@ const Game: React.FC = () => {
   }, [resetGame, setPlaying]);
 
   const handleShareScore = useCallback(() => {
-    const tweetText = `I just got ${score} points on Cygaar's Circuit! Think you can beat it? #Cygaarcoin`;
+    const tweetText = `I just got ${score} points on Flappy Penguin! Think you can beat it? #Cygaarcoin`;
     const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
     window.open(tweetUrl, '_blank');
   }, [score]);
